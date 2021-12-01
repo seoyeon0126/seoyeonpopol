@@ -1,0 +1,355 @@
+@charset "utf-8";
+
+/* content 시작 */
+
+.content {
+	/* border : 1px solid red; */
+	position : relative;
+	width : 100%;
+	min-height : 2800px;
+	background-color : #fff;
+}
+
+.content:after {
+	content : "";
+	display : block;
+	clear : both;
+}
+
+video {
+	/* border : 1px solid red; */
+	width : 100%;
+	z-index : -1;
+}
+
+.movie_cover {
+	position : absolute;
+	top : 5%; left : 5%;
+	width : 1400px;
+	/* border : 1px solid red; */
+	/* line-height : 8.9em; */
+}
+
+.movie_cover>p {
+	font-size : 20pt;
+	color : #fff;
+	/* line-height : 1.5em; */
+}
+
+.movie_cover>h3 {
+	font-size : 40pt;
+	color : #fff;
+}
+
+/* slide 시작 */
+
+.slide {
+	margin-top : 5%;
+	/* border : 1px solid red; */
+	width : 1400px;
+	height : 100px;
+	min-height : 684px;
+	background-color : #f9a0c1;
+}
+
+.first {
+	float : left;
+	width : 700px;
+	height : 684px;
+	/* background-color : #fff; */
+	background : url(../images/new_date.gif)
+	no-repeat 0 0;
+}
+
+.first>h2 {
+	/* border : 1px solid red; */
+	margin-top : 100px;
+	margin-left : 60px;
+	font-size : 38px;
+	line-height : 55px;
+	margin-bottom : 22px;
+	font-weight : bold;
+}
+
+.first>span {
+	/* border : 1px solid red; */
+	margin-left : 60px;
+	font-size : 20px;
+	font-weight : bold;
+	color : #b1b4bf;
+}
+
+.second {
+	margin-left : 60px;
+	/* border : 1px solid red; */
+	float : left;
+	width : 590px;
+	height : 684px;
+}
+
+.second>p {
+	margin-top : 65px;
+	/* margin-left : 60px; */
+	float : left;
+}
+
+/* 텍스트 필드 스타일 */
+
+input[type="text"] ,
+input[type="date"] {
+	margin-left : 10px;
+	width : 275px;
+	border : none;
+	border-bottom : 1px solid #000;
+}
+
+#uname, #uintro, #uday, #uyear {
+	background : transparent;
+}
+
+.second>.userdata {
+	width : 422px;
+	height : 178px;
+	/* border : 1px solid red; */
+	float : left;
+	margin-left : 10px;
+	font : bold 23px 
+	"나눔스퀘어_ac";
+	text-align : left;
+	margin-top : 65px;
+}
+
+.second>.userdata>li {
+	/* margin-top : 12.5px; */
+	line-height : 45px;
+}
+
+.second>.userdata>li:nth-child(2) {
+	text-indent : 40px;
+}
+
+.second>.userdata>li:nth-child(3) {
+	text-indent : 40px;
+}
+
+.second>.userdata>li:nth-child(4) {
+	text-indent : 40px;
+}
+
+.third {
+	width : 590px;
+	height : 210px;
+	/* border : 1px solid red; */
+	/* margin : 230px 60px 0px 60px;	 */
+	/* 북,남,동,서 */
+}
+
+.third>.usercover {
+	width : 590px;
+	/* border : 1px solid red; */
+	float : left;
+	font : bold 23px 
+	"나눔스퀘어_ac";
+	text-shadow : 2px 1px 3px #fff;
+	margin-top : 60px;
+}
+
+.third>.usercover>li>p:nth-child(3) {
+	/* border : 1px solid red; */
+	float : right;
+}
+
+.third>.usercover>li>p:nth-child(4) {
+	width : 590px;
+	margin : 10px 0 0 0;
+	text-align : center;
+	/* border : 1px solid red; */
+}
+
+.usercover>li>input[type="date"],input[type="file"] {
+	width : 150px;
+}
+
+/* slide_mesege */
+
+.slide_mesege {
+	/* border : 1px solid red; */
+	margin-top : 5%;
+	width : 1400px;
+	min-height : 684px;
+	background-color : #ffcbc7; /* #fcb9b6;	*/
+	/* border : 1px solid red; */
+}
+
+.fourth {
+	/* border : 1px solid red; */
+	margin : 0px 0px 20px 20px;
+	float : left;
+	width : 664px;
+}
+
+.fourth>ul {
+	width : 580px;
+	height : 684px;
+	/* border : 1px solid red; */
+}
+
+.fourth>ul>li {
+	width : 292px;
+	/* margin : 100px 0px 0 0px;  */
+	text-align : center;
+	margin-top : 7px;
+	/* margin-bottom : 70px; */
+	/* float : left; */
+	/* border : 1px solid red; */
+	pointer : cursor;
+}
+
+.fourth>ul>li>a>h2 {
+	font : bold 40px 
+	"나눔스퀘어_ac";
+	color : #ebebeb;
+	/* margin-top : 10px; */
+}
+
+.fourth>ul>li:nth-child(1) {
+	float : left;
+}
+
+.fourth>ul>li:nth-child(2) {
+	float : right;
+}
+
+.fourth>ul>li:nth-child(3) {
+	float : left;
+}
+
+.fourth>ul>li:nth-child(4) {
+	float : right;
+}
+
+.fifth {
+	/* border : 1px solid red; */
+	width : 700px;
+	height : 684px;
+	float : right;
+	/* background-color : pink; */
+	background : url(../images/ding_dong.gif)
+	no-repeat 0 0;
+	background-size : 100%;
+} 
+
+.fifth>h2 {
+	/* border : 1px solid red; */
+	/* float : right; */
+	margin-top : 100px;
+	margin-left : 60px;
+	font-size : 38px;
+	line-height : 55px;
+	margin-bottom : 22px;
+	font-weight : bold;
+}
+
+.fifth>span {
+	margin-left : 60px;
+	font-size : 20px;
+	font-weight : bold;
+	color : #b1b4bf;
+}
+
+/* slide_scope */
+
+.slide_scope {
+	margin-top : 5%;
+	/* border : 1px solid red; */
+	width : 1400px;
+	/* height : 100px; */
+	min-height : 684px;
+	background-color : #f0315d;
+}
+
+.sixth {
+	float : left;
+	width : 700px;
+	height : 684px;
+	/* background-color : #fff; */
+	background : url(../images/heart.gif)
+	no-repeat 0 0;
+}
+
+.sixth>h2 {
+	/* border : 1px solid red; */
+	margin-top : 100px;
+	margin-left : 60px;
+	font-size : 38px;
+	line-height : 55px;
+	margin-bottom : 22px;
+	font-weight : bold;
+}
+
+.sixth>span {
+	/* border : 1px solid red; */
+	margin-left : 60px;
+	font-size : 20px;
+	font-weight : bold;
+	color : #b1b4bf;
+}
+
+.seventh {
+	font : bold 30px 
+	"나눔스퀘어_ac";
+	width : 660px;
+	height : 684px;
+	margin-right : 20px;
+	/* border : 1px solid blue; */
+	float : right;
+	/* width : 590px; */
+	/* height : 684px; */
+	line-height : 70px;
+}
+
+.seventh>form {
+	width : 320px;
+	margin-top : 50px;
+	/* margin-left : 60px; */
+	float : left;
+	/* text-align : left; */
+	/* border : 1px solid blue; */
+}
+
+.range {
+	float : right;
+	/* border : 5px solid purple; */
+	
+}
+
+.eighth {
+	width : 660px;
+	height : 684px;
+	/* height : 684px; */
+	/* margin-left : 60px; */
+	/* border : 1px solid blue; */
+	/* float : right; */
+	line-height : 70px;
+}
+
+.eighth>form {
+	margin-top : 350px;
+	width : 320px;
+	/* margin-left : 60px; */
+	/* border : 1px solid blue; */
+	float : right;
+	text-align : right;
+}
+
+.eighth>form {
+	/* border : 1px solid blue; */
+	float : right;
+}
+
+.friend {
+	float : left;
+	/* border : 5px solid purple; */
+	margin : 10px;
+	/* margin : 0px; */
+}

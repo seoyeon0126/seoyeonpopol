@@ -1,0 +1,491 @@
+/* ctrl+k -> ctrl+c :: 주석처리 */
+
+* {
+    margin : 0;
+    font-family : "나눔스퀘어", sans-serif;
+    box-sizing : border-box;
+}
+
+ul {
+	padding:0;
+}
+
+ul>li {
+	list-style : none;
+}
+
+
+img {
+    vertical-align: top;
+}
+
+a {
+    color : inherit;
+	text-decoration: none;
+}
+
+body {
+    width : 100%;
+}
+
+header {
+	position:relative;
+    width : 100%;
+    text-align : left;
+    margin-bottom : 80px;
+}
+
+.h_cover {
+    width : 100%;
+	padding-top:40px;
+	/* margin : 40px auto; */
+    /* border : 1px solid red; */
+}
+
+.h_cover>p {
+	margin : 40px auto;
+    width : 100%;
+	text-align : center;
+	width : 177px;
+	height : 106px;
+    animation : sign 12s ease-in-out infinite;
+}
+    @keyframes sign {
+    0%, 100% {
+        background-image : url(../images/output/yeon_sign.png);
+    }
+    
+    12% {
+        background-image : url(../images/output/red.png);
+    }
+    
+    24% {
+        background-image : url(../images/output/orange.png);
+    
+    }
+	
+	36% {
+        background-image : url(../images/output/yellow.png);
+    
+    }
+	
+	48% {
+        background-image : url(../images/output/green.png);
+    
+    }
+	
+	60% {
+        background-image : url(../images/output/blue.png);
+    
+    }
+	
+	72% {
+        background-image : url(../images/output/darkblue.png);
+    
+    }
+	
+	81% {
+        background-image : url(../images/output/purple.png);
+    
+    }
+	
+	96% {
+		background-image : url(../images/output/pink.png);
+	}
+}
+
+.h_cover>div {
+	padding : 10px 0;
+	width:100%;
+	/* border:1px solid red; */
+	text-align: center;
+	/* margin-left : 100px; */
+}
+
+.h_cover>div>p {
+	display : inline-block;
+	width : 200px;
+	margin-bottom:20px;
+	/* border : 1px solid red; */
+	/* width : 100%; */
+	/* float : left; */
+}
+
+.h_cover>div>p:nth-child(2) {
+		/* width : 100%; */
+        /* width : 100%; */
+        padding : 10px;
+        /* border : 1px solid red; */
+        background : #000;
+        color : #fff;
+        /* font-size : 40px; */
+        font-weight: normal;
+        /* box-sizing : border-box; */
+
+}
+
+.h_cover>div>p:nth-child(1):hover {
+    /* width : 100%; */
+    padding : 10px;
+    /* border : 1px solid red; */
+    background : #000;
+    color : #fff;
+    /* font-size : 40px; */
+    font-weight: normal;
+
+}
+
+.h_video {
+	position : relative;
+	width : 100%;
+    margin-top : 20px;
+    text-align : center;
+}
+
+
+.h_video>div {
+	margin : 0 auto;
+	width:900px;
+	height:500px;
+	/* margin:50px auto 50px auto; */
+	position:relative;
+	/* border:1px solid red; */
+}
+
+.h_video>div>video {
+	width:900px;
+	height:500px;
+	position:absolute;
+	top:0; left:0;
+}
+
+.h_video>div>p {
+	position:absolute;
+	/* top:-30px; */
+	/* left:0; */
+	width:900px;
+	height:500px;
+	border:10px solid #123456;
+}
+
+.h_video h2 {
+    margin-top : 40px;
+    font-size : 20px;
+}
+
+.h_video ul {
+	margin-top : 40px;
+	/* border : 1px solid red; */
+	width : 100%;
+}
+
+.h_video ul li {
+	/* border : 1px soild red; */
+	width : 72px;
+	display : inline-block;
+}
+
+.h_video>p {
+    /* text-align : center; */
+    margin-top : 30px;
+    /* font-size : 30px; */
+	font-size : 1em;
+	line-height:2em;
+	/* line-height 기본은 1.6em */
+}
+
+.h_video button {
+    margin-top : 30px;
+    padding : 13px;
+    border-radius : 40px;
+    font-size : 0.9em;
+    font-weight : bold;
+    color : #fff;
+    background-color : #000;
+    cursor : pointer;
+}
+
+.h_video button:hover {
+    background-color : rgba(0, 0, 0, 0.7)
+}
+
+.h_video button:focus {
+    outline : 0;
+}
+
+.slide {
+    width : 100%;
+    height : 100%;
+    /* border : 1px solid red; */
+}
+
+.brain_map {
+    /* float : left; */
+    width : 100%;
+    /* border : 1px solid purple; */
+    /* text-align : center; */
+}
+
+.brain_map ul {
+    width : 1620px;
+	margin:0 auto;
+	margin-bottom:100px;
+    /* border : 1px solid red; */
+    /* float : left; */
+    /* margin-left : 33em; */
+}
+
+.brain_map ul li {
+	width:500px;
+	display:inline-block;
+	text-align:center;
+}
+
+.brain_map ul li:nth-child(2) {
+	margin:0 50px;
+}
+
+.brain_map ul li h4 {
+    padding : 10px 0;
+    /* width : 400px; */
+    margin-top : 40px;
+    font-size : 18px;
+    font-weight : bold;
+    background-color : #D8BEE4;
+    color : #000;
+}
+
+.brain_map ul li img {
+	width:500px;
+}
+
+.content {
+    width : 100%;
+    height : 100%;
+    /* border : 1px solid red; */
+    margin-top : 60px;
+}
+
+.frame {
+    width : 100%;
+    border-top : 2px solid #ddd;
+    border-bottom : 1px solid #ddd;
+    text-align : center;
+	padding:20px;
+	margin-bottom:30px;
+}
+
+.frame h2 {
+    color : #000;
+    font-size : 20px;
+    font-weight : bold;
+    /* background : #fad8df; */
+}
+
+.frame2 {
+    width : 100%;
+	margin-bottom: 50px;
+    /* border-bottom : 2px solid #000; */
+}
+
+.frame2>p {
+	text-align:center;
+}
+
+.frame2>p>a>img {
+	width:1000px;
+}
+
+.frame3 {
+    /* margin-top : 50px; */
+    width : 100%;
+    border-top : 1px solid #000;
+    /* border : 1px solid red; */
+	text-align:center;
+	/* border : 1px solid red; */
+}
+
+.frame3 ul {
+	margin : 10px auto;
+}
+
+.frame3 ul li {
+	/* border : 1px solid red; */
+	display : inline-block;
+}
+
+.frame3 ul li h2 {
+    /* margin : 10px; */
+    padding : 10px;
+    /* border : 1px solid red; */
+    color :#000;
+    font-size : 1.1em;
+    font-weight : bold;
+    background : rgb(252, 227, 0);
+	line-height : 10px;
+	margin-bottom : 10px;
+}
+
+.frame3>p {
+	margin-top : 50px;
+}
+
+.frame3 p img {
+	width : 670px;
+}
+
+.yeon {
+	/* border : 1px solid red; */
+	width: 100%;
+	/* height : 300px; */
+	position:relative;
+	text-align : center;
+}
+
+.yeon>ul {
+	margin:0 auto;
+}
+
+.yeon ul li {
+    /* border : 1px solid red; */
+    /* float : left; */
+    display : inline-block;
+	/* float : left; */
+    /* margin-right : 80px; */
+    margin-top : 20px;
+    /* border-bottom : 1px solid #000; */
+}
+
+.yeon ul li p {
+	margin-top : 15px;
+	/* padding-top : 30px; */
+	margin-bottom : 15px;
+    /* border : 1px solid red; */
+    width : 670px;
+    height : 165px;
+    background-size : cover;
+    animation : logo 5s ease-in-out infinite;
+}
+    @keyframes logo {
+    0%, 100% {
+        background-image : url(../images/logo_yellow.png);
+    }
+    
+    50% {
+        background-image : url(../images/logo_rgb.png);
+    }
+    
+    75% {
+        background-image : url(../images/logo_gray.png);
+    
+    }
+}
+
+
+
+.yeon ul li h2 {
+    /* margin : 10px; */
+    padding : 10px;
+    /* border : 1px solid red; */
+    color :#000;
+    font-size : 1.1em;
+    font-weight : bold;
+    background : rgb(252, 227, 0);
+	line-height : 10px;
+}
+
+
+footer {
+	position : relative;
+    /* border : 1px solid red; */
+    /* position : absolute; */
+    /* left : 0;
+    top : 0; */
+    margin-top : 40px;
+    width : 100%;
+	/* border : 1px solid red; */
+	margin : 0 auto;
+}
+
+.fin h3 {
+	border-top : 2px solid #ddd;
+    border-bottom : 2px solid #ddd;
+    /* font-family : 나눔바른고딕 체; */
+    /* margin-top:40px; */
+    /* border : 1px solid red; */
+	text-align:center;
+	padding : 20px;
+	margin-bottom:30px;
+    color : #000;
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.fin p {
+	/* border : 1px solid red; */
+	/* float : left; */
+	width:1000px;
+	height:500px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	margin:10px auto 10px auto;
+}
+
+.fin p img {
+	width : 900px;
+}
+
+.fin2>h3 {
+	border-top : 2px solid #ddd;
+    border-bottom : 2px solid #ddd;
+    /* font-family : 나눔바른고딕 체; */
+    /* margin-top:40px; */
+    /* border : 1px solid red; */
+	text-align:center;
+	padding : 20px;
+	margin-bottom:30px;
+    color : #000;
+    font-size : 20px;
+    font-weight : bold;
+}
+
+.fin2 p {
+	/* float : left; */
+	width:1000px;
+	height:500px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	margin:11px auto 10px auto;
+}
+
+.fin2 p img {
+	width : 900px;
+}
+
+/* @keyframes animate { */
+    /* 0%,100% { */
+        /* background-image : url(../images/Smiling_desktop_pc.png); */
+    /* } */
+    /* 50% { */
+        /* background-image : url(../images/Smiling_notebook.png); */
+    /* } */
+    
+    /* 75% { */
+        /* background-image : url(../images/Smiling_mobile.png); */
+    /* } */
+/* } */
+
+
+
+/* @keyframes animate2 { */
+    /* 0%,100% { */
+        /* background-image : url(../images/desktop_pc_storybord.png); */
+    /* } */
+    /* 50% { */
+        /* background-image : url(../images/notebook_storybord.png); */
+    /* } */
+    
+    /* 75% { */
+        /* background-image : url(../images/mobile_storybord.png); */
+    /* } */
+/* } */

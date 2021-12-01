@@ -1,0 +1,264 @@
+/* content 시작 */
+
+.content {
+	position : relative;
+	width : 1400px;
+	min-height : 350px;
+	background-color : #ffebf0;
+}
+
+.content:after {
+	content : "";
+	display : block;
+	clear : both;
+}
+
+/* 슬라이드 시작 */
+
+.slide {
+	width : 1000px;
+	/* border : 1px solid red; */
+	min-height : 2000px;
+	/* background-color : #f9a0c1; */
+}
+
+.first {
+	margin-top : 5%;
+	float : left;
+	width : 1000px;
+	/* height : 350px; */
+	background-color : #fff;
+	padding : 20px;
+}
+
+.first>.bold {
+	padding : 10px;
+	/* margin-right : 10px; */
+	float : right;
+	background-color : #ff80ab;
+	color : #fff;
+	/* border : 1px solid red; */
+	cursor : pointer;
+}
+
+.first>ul {
+	width : 1000px;
+	height : 350px;
+	/* border : 1px solid red; */
+}
+
+.first>ul>li {
+	width : 500px;
+	line-height : 30px;
+}
+
+.first>ul>li:nth-child(1) {
+	float : left;
+	margin-top : 57px;
+}
+
+.first>ul>li:nth-child(2) {
+	float : right;
+}
+
+.first>ul>li:nth-child(2)>p:nth-child(2) {
+	width : 500px;
+	border : 3px solid #000;
+	text-align : center;
+	background-color : #fff;
+	cursor : pointer;
+}
+
+.first>ul>li:nth-child(2)>p:nth-child(2):hover {
+	color : #fff;
+	background-color : #000;
+}
+
+.first>ul>li:nth-child(3) {
+	margin-top : 53px;
+	float : left;
+}
+
+.first>ul>li:nth-child(4) {
+	/* border : 1px solid red; */
+	float : right;
+	/* margin-right : 25px; */
+	/* padding-right : 25px; */
+	margin-top : 15px;
+}
+
+.first>ul>li:nth-child(4)>p:nth-child(2) {
+	width : 500px;
+	/* margin-left : 25px; */
+	/* padding-right : 25px; */
+	border : 3px solid #000;
+	/* border : 1px solid red; */
+	text-align : center;
+	cursor : pointer;
+}
+
+.first>ul>li:nth-child(4)>p:nth-child(2):hover {
+	color : #fff;
+	background-color : #000;
+}
+
+.second {
+	margin-top : 5%;
+	float : left;
+	width : 1000px;
+	/* height : 350px; */
+	background-color : #fff;
+	padding : 20px;
+}
+
+.second>.bold2 {
+	padding : 10px;
+	/* margin-right : 10px; */
+	float : right;
+	background-color : #ff80ab;
+	color : #fff;
+	/* border : 1px solid red; */
+	cursor : pointer;
+}
+
+.second>ul {
+	width : 1000px;
+	height : 350px;
+	/* border : 1px solid red; */
+}
+
+.second>ul>li {
+	width : 500px;
+	line-height : 30px;
+}
+
+.second>ul>li:nth-child(1) {
+	float : left;
+	margin-top : 57px;
+}
+
+.second>ul>li:nth-child(2) {
+	float : right;
+}
+
+.second>ul>li:nth-child(2)>p:nth-child(2) {
+	width : 500px;
+	border : 3px solid #000;
+	text-align : center;
+	background-color : #fff;
+	cursor : pointer;
+}
+
+.second>ul>li:nth-child(2)>p:nth-child(2):hover {
+	color : #fff;
+	background-color : #000;
+}
+
+.second>ul>li:nth-child(3) {
+	float : left;
+	margin-top : 53px;
+	
+}
+
+.second>ul>li:nth-child(4) {
+	/* border : 1px solid red; */
+	float : right;
+	/* margin-right : 25px; */
+	/* padding-right : 25px; */
+	margin-top : 43px;
+}
+
+.second>ul>li:nth-child(4)>p:nth-child(2) {
+	width : 500px;
+	/* margin-left : 25px; */
+	/* padding-right : 25px; */
+	border : 3px solid #000;
+	/* border : 1px solid red; */
+	text-align : center;
+	cursor : pointer;
+}
+
+.second>ul>li:nth-child(4)>p:nth-child(2):hover {
+	color : #fff;
+	background-color : #000;
+}
+
+.third {
+	margin-top : 5%;
+	float : left;
+	width : 1000px;
+	/* height : 1600px; */
+	background-color : #fff;
+	padding : 20px;
+}
+
+.third>.bold3 {
+	background-color : #ff80ab;
+	color : #fff;
+	float : right;
+	padding : 10px;
+	cursor : pointer;
+}
+
+.third>ul {
+	width : 1000px;
+	/* border : 1px solid red; */
+}
+
+.third>ul>li {
+	width : 500px;
+	line-height : 28px;	
+}
+
+.third>ul>li>a>img {
+	transition : transform 1s;
+}
+
+.third>ul>li>a>img:hover {
+	transform : scale(1.06);
+}
+
+.third>ul>li:nth-child(1) {
+	margin-top : 52px;
+	float : left;
+}
+
+.third>ul>li:nth-child(2) {
+	margin-top : 0px;
+	float : right;
+}
+
+.third>ul>li:nth-child(3) {
+	float : left;
+}
+
+.third>ul>li:nth-child(4) {
+	float : right;
+}
+
+.third>ul>li:nth-child(5) {
+	float : left;
+}
+
+.third>ul>li:nth-child(6) {
+	float : right;
+}
+
+.third>ul>li:nth-child(7) {
+	float : left;
+}
+
+.third>ul>li:nth-child(8) {
+	float : right;
+}
+
+
+
+
+
+
+
+
+
+
+
